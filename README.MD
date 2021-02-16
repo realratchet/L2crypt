@@ -24,14 +24,14 @@ Maven
 -----
 ```maven
 <repository>
-    <id>l2crypt-github</id>
-    <url>https://raw.githubusercontent.com/acmi/L2crypt/mvn-repo</url>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
 </repository>
 
 <dependency>
-    <groupId>acmi.l2.clientmod</groupId>
+    <groupId>com.github.acmi</groupId>
     <artifactId>l2crypt</artifactId>
-    <version>1.3.+</version>
+    <version>1.3.3</version>
 </dependency>
 ```
 
@@ -40,11 +40,11 @@ Gradle
 ```gradle
 repositories {
     // ...
-    maven { url "https://raw.githubusercontent.com/acmi/L2crypt/mvn-repo" }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    compile group:'acmi.l2.clientmod', name:'l2crypt', version: '1.3.+'
+    compile group:'com.github.acmi', name:'l2crypt', version: '1.3.3'
 }
 ```
 
